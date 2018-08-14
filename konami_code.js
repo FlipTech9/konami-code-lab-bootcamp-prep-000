@@ -24,5 +24,5 @@ function init() {
     }
     
   });
-  return init()
+  return init
 }
