@@ -16,6 +16,10 @@ function init() {
   let index = 0;
   
   document.body.addEventListener("downkey", (d)) => {
-    const key 
+    const key = d.key
+    index = (codes[index] === key) ? ++index : 0
+    if(index === codes.length){
+      window.alert("Hurray!")
+    }
   }
 }
