@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   // your code here
-  let index = 0;
+  let index = 0
   
   document.body.addEventListener("downkey", (d)) => {
     const key = d.key
