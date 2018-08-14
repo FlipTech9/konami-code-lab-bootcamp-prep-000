@@ -22,5 +22,5 @@ function init() {
       window.alert("Hurray!");
       index = 0 
     }
-  }
+  });
 }
