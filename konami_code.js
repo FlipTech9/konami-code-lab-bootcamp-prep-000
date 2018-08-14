@@ -15,8 +15,8 @@ function init() {
   // your code here
   let index = 0
   
-  document.body.addEventListener("downkey", (e) => {
-    const key = e.key
+  document.body.addEventListener("downkey", (d) => {
+    const key = d.key
     index = (codes[index] === key) ? ++index : 0
     if(index === codes.length){
       window.alert("Hurray!")
