@@ -15,5 +15,7 @@ function init() {
   // your code here
   let index = 0;
   
-  document.body.addEventListener("downkey")
+  document.body.addEventListener("downkey", (d)) => {
+    const 
+  }
 }
