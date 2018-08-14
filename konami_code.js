@@ -19,7 +19,8 @@ function init() {
     const key = d.key
     index = (codes[index] === key) ? ++index : 0
     if(index === codes.length){
-      window.alert("Hurray!")
+      window.alert("Hurray!");
+      index = 0 
     }
   }
 }
